@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      
+   Text("Hello World")
     }
 }
 

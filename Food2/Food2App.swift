@@ -11,7 +11,13 @@ import SwiftUI
 struct Food2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+        ContentView()
         }
+    }
+}
+
+struct Food2App_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
